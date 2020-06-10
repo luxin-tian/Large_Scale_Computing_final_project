@@ -129,3 +129,22 @@ Such computational analysis tasks can also be performed on a ```Spark``` framewo
 - Mikolov T, Sutskever I, Chen K, et al. Distributed representations of words and phrases and their compositionality[C]. Advances in neural information processing systems. 2013: 3111-3119.
 - Hamilton W L, Leskovec J, Jurafsky D. Diachronic word embeddings reveal statistical laws of semantic change[J]. arXiv preprint arXiv:1605.09096, 2016.
 - Schönemann P H. A generalized solution of the orthogonal Procrustes problem[J]. Psychometrika, 1966, 31(1): 1-10.
+
+## Appendix: visualizations of ideology dynamics 
+
+Latent dynamics in political-economic ideologies are captured by linguistic changes in the People's Daily corpus. The following are some examples of the results. 
+
+The commencement of the Reform and Openning-up policy in China in 1978 is captured by a significant change of the meaning of '经济' (economy) around 1978 and '市场经济' (market economy). 
+
+- Linguistic changes of the wrod '经济' (economy)
+
+![economy](doc/economy.png)
+
+- Linguistic changes of the word '市场经济' (market economy)
+![market_economy](doc/market_economy.png)
+
+- Linguistic chagnes of the word '社会主义' (socialism)
+![socialism](doc/socialism.png)
+
+- Converging path of economic words: dynamics of the Euclidean distances from the matrices of word vectors of period $t$ to that of period $t-1$ and that of the final period in each time slices. 
+![converging_path](doc/converging_path_economic_words.png)
